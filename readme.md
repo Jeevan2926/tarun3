@@ -196,4 +196,38 @@ User Profiles: Add more user profile details.
 
 Public/Shared Workouts: Implement functionality to share workouts with other users (requires adjusting Firestore rules for public data).
 
-Input Validation: More robust client-side validation for form inputs.
+
+Features
+User Authentication: Secure sign-up and sign-in functionality using Firebase Authentication (email/password).
+
+Workout Logging: Easily add new workout entries including:
+
+Exercise Name
+
+Sets
+
+Reps
+
+Weight (in kg/lbs)
+
+Workout History: View a chronological list of all your past workout entries.
+
+Data Persistence: All workout data is stored securely in Google Cloud Firestore, linked to the authenticated user.
+
+Responsive Design: Built with Tailwind CSS to ensure a great user experience across various devices (desktop, tablet, mobile).
+
+Technologies Used
+React: A JavaScript library for building user interfaces.
+
+Firebase: A platform developed by Google for creating mobile and web applications.
+
+Firebase Authentication: For user registration and login.
+
+Cloud Firestore: A NoSQL cloud database for storing workout data.
+
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
+
+Setup and Running Locally
+This application is designed to run within a specific environment (like the Canvas environment where it was generated) that provides necessary Firebase configuration and authentication tokens. However, you can adapt it to run locally by setting up your own Firebase project.
+
+iInput Validation: More robust client-side validation for form inputs.
